@@ -1,0 +1,27 @@
+{
+  "name": "my_blue_grid_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Papy87/my_blue_grid_project.git"
+  },
+  "author": "Nemanja Papucic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Papy87/my_blue_grid_project/issues"
+  },
+  "homepage": "https://github.com/Papy87/my_blue_grid_project#readme",
+  "devDependencies": {
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "ioredis": "^5.4.1"
+  }
+}
