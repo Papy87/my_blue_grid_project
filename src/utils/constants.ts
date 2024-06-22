@@ -6,6 +6,6 @@ dotenv.config({ path: path.resolve(__dirname, "../../.env") });
 const API_URL = "https://rest-test-eight.vercel.app/api/test";
 const CACHE_KEY = process.env.CACHE_KEY || "redisKey";
 //Setting the cache time to 10 minutes
-const CACHE_TIME = 60 * 60;
+const CACHE_TIME = 60 * 10;
 
 export { API_URL, CACHE_KEY, CACHE_TIME };
