@@ -6,12 +6,12 @@ FIRST ONE
 
 You need to be on branch main.
 You need to install redis on your machine.
-Link for installation instructions 
+Link for installation instructions:
 https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/
 Run redis on your local machine, in terminal execute this command:
 Mac :  redis-server
 Create .env file in the root of your project 
-.env file need to have next properties  :
+.env file need to have next properties :
  PORT = {YOUR_PORT}
  CACHE_KEY= {YOUR_KEY} 
 In project root folder terminal execute command: npm install
@@ -21,6 +21,7 @@ Server should be running
 
 
 SECOND ONE
+
 You need to be on branch  main
 You need to install docker on your machine.
 Link for installation instructions
