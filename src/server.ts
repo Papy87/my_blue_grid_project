@@ -1,9 +1,10 @@
 import express from "express";
 import appRoutes from "./routes/appRoutes";
-import { PORT } from "../src/utils/constants";
+
+const PORT = process.env.PORT || 5002;
 
 const app = express();
-
+app.use(express.json());
 app.use("/", appRoutes);
 
 app.listen(PORT, () => {
