@@ -34,6 +34,7 @@ You need to be on branch  main
 You need to install docker on your machine.
 Link for installation instructions
 https://docs.docker.com/desktop/
+
 Run Docker Desktop.
 
 Create .env file in the root of your project 
