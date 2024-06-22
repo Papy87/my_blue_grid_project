@@ -6,6 +6,7 @@ FIRST ONE -  Running on local with Redis
 
 You need to install redis on your machine.
 Link for installation instructions:
+
 https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/
 
 Run redis on your local machine, in terminal execute this command:
