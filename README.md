@@ -13,6 +13,7 @@ Mac :  redis-server
 
 Create .env file in the root of your project 
 .env file need to have next properties :
+
  PORT = {YOUR_PORT}
  CACHE_KEY= {YOUR_KEY} 
  
