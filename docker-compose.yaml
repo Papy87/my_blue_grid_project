@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    ports:
+      - "${PORT}:${PORT}"
+    depends_on:
+      - redis
+    environment:
+      - PORT=${PORT}
+      - REDIS_URL=${REDIS_URL}
+      - CACHE_KEY=${CACHE_KEY}
+  redis:
+    image: "redis:alpine"
+    ports:
+      - "6379:6379"

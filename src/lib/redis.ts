@@ -1,6 +1,7 @@
 import Redis from "ioredis";
+import { REDIS_URL } from "../utils/constants";
 
-const redis = new Redis();
+const redis = new Redis(REDIS_URL);
 
 const getCache = async (key: string) => {
   const value = await redis.get(key);
