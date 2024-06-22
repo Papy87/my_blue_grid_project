@@ -34,6 +34,7 @@ You need to be on branch  main
 You need to install docker on your machine.
 Link for installation instructions
 https://docs.docker.com/desktop/
+Run Docker Desktop.
 
 Create .env file in the root of your project 
 .env file need to have next properties  :
@@ -44,7 +45,7 @@ CACHE_KEY= {YOUR_KEY}
 
 REDIS_URL=redis://redis:6379
 
-Make sure that your local redis library is not running.
+Make sure that your local redis is not running.
 
 In project root folder terminal execute command: docker-compose build
 
