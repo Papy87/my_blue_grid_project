@@ -43,7 +43,9 @@ REDIS_URL=redis://redis:6379
 Make sure that your local redis library is not running.
 
 In project root folder terminal execute command: docker-compose build
+
 In project root folder terminal execute command: docker-compose up
+
 Server should be running 
 
 Insomnia/Postman URL
