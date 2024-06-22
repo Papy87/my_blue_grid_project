@@ -18,8 +18,11 @@ Create .env file in the root of your project
  CACHE_KEY= {YOUR_KEY} 
  
 In project root folder terminal execute command: npm install
+
 In project root folder terminal execute command: npm run build
+
 In project root folder terminal execute command : npm start 
+
 Server should be running 
 
 
