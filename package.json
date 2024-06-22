@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev src/server.ts"
   },
   "repository": {
     "type": "git",
@@ -17,10 +18,16 @@
   },
   "homepage": "https://github.com/Papy87/my_blue_grid_project#readme",
   "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/ioredis": "^5.0.0",
+    "@types/node": "^20.14.7",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.5.2"
   },
   "dependencies": {
+    "@types/dotenv": "^8.2.0",
     "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "ioredis": "^5.4.1"
   }
