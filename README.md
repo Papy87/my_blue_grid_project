@@ -2,7 +2,7 @@ Instructions
 
 There are  2 ways to start a server. 
 
-FIRST ONE
+FIRST ONE -  Running on local with Redis
 
 You need to be on branch main.
 You need to install redis on your machine.
@@ -27,7 +27,7 @@ In project root folder terminal execute command : npm start
 Server should be running 
 
 
-SECOND ONE
+SECOND ONE - Running with Docker 
 
 You need to be on branch  main
 
