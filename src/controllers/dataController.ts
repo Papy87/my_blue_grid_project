@@ -2,9 +2,10 @@ import { Request, Response } from "express";
 import axios from "axios";
 import { getCache, setCache } from "../lib/redis";
 import { transformData } from "../utils/transformData";
-import { API_URL,CACHE_KEY,CACHE_TIME } from "../utils/constants";
-
-
+import { API_URL, CACHE_KEY, CACHE_TIME } from "../utils/constants";
+import {
+  handleAxiosError,
+} from "../errorHandlers/axiosErrors";
 
 export const fetchData = async (req: Request, res: Response) => {
   try {
@@ -20,6 +21,13 @@ export const fetchData = async (req: Request, res: Response) => {
 
     res.json(data);
   } catch (error) {
-    res.status(500).json({ error: "Internal Server Error" });
+    if (axios.isAxiosError(error)) {
+      handleAxiosError(error, res);
+    } else {
+      // Other errors
+      res.status(500).json({
+        error: "Internal Server Error",
+      });
+    }
   }
 };
