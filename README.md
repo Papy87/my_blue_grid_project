@@ -16,7 +16,6 @@ Create .env file in the root of your project
 .env file need to have next properties  :
  PORT = {YOUR_PORT}
  CACHE_KEY= {YOUR_KEY} 
-REDIS_URL=redis://redis:6379
 In project root folder terminal execute command: npm install
 In project root folder terminal execute command: npm run build
 In project root folder terminal execute command : npm start 
@@ -24,14 +23,14 @@ Server should be running
 
 
 				SECOND ONE
-You need to be on branch  docker_images
+You need to be on branch  main
 You need to install docker on your machine.
 Link for installation instructions
 https://docs.docker.com/desktop/
 Create .env file in the root of your project 
 .env file need to have next properties  :
- PORT = {YOUR_PORT}
- CACHE_KEY= {YOUR_KEY} 
+PORT = {YOUR_PORT}
+CACHE_KEY= {YOUR_KEY} 
 REDIS_URL=redis://redis:6379
 In project root folder terminal execute command: docker-compose build
 In project root folder terminal execute command: docker-compose up
