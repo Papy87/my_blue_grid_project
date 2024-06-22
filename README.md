@@ -35,6 +35,9 @@ In project root folder terminal execute command: docker-compose build
 In project root folder terminal execute command: docker-compose up
 Server should be running 
 
+Insomnia/Postman URL
+Metod: GET
+http://localhost:{YOUR_PORT}/api/files
 
 	
 	
