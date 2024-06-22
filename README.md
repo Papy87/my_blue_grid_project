@@ -4,7 +4,6 @@ There are  2 ways to start a server.
 
 FIRST ONE -  Running on local with Redis
 
-You need to be on branch main.
 You need to install redis on your machine.
 Link for installation instructions:
 https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/
@@ -28,8 +27,6 @@ Server should be running
 
 
 SECOND ONE - Running with Docker 
-
-You need to be on branch  main
 
 You need to install docker on your machine.
 Link for installation instructions
