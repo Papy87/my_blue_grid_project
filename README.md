@@ -15,6 +15,7 @@ Create .env file in the root of your project
 .env file need to have next properties :
 
  PORT = {YOUR_PORT}
+ 
  CACHE_KEY= {YOUR_KEY} 
  
 In project root folder terminal execute command: npm install
@@ -36,8 +37,11 @@ https://docs.docker.com/desktop/
 
 Create .env file in the root of your project 
 .env file need to have next properties  :
+
 PORT = {YOUR_PORT}
+
 CACHE_KEY= {YOUR_KEY} 
+
 REDIS_URL=redis://redis:6379
 
 Make sure that your local redis library is not running.
